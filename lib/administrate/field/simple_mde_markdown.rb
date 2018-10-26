@@ -16,7 +16,7 @@ module Administrate
           'administrate-field-simple_mde_markdown/application'
         )
 
-        config.assets.paths << File.expand_path('../../node_modules', __dir__)
+        config.assets.paths << File.expand_path('../../../node_modules', __dir__)
       end
 
       def to_s
