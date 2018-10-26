@@ -1,0 +1,6 @@
+<div class="field-unit__label">
+  <%= f.label field.attribute %>
+</div>
+<div class="field-unit__field markdown-field-wrapper__<%= field.resource.class.to_s.parameterize %>__<%= field.attribute %>">
+  <%= f.text_area field.attribute, class: 'markdown-field', 'data-simplemde-options' => field.simplemde_options.to_json %>
+</div>
