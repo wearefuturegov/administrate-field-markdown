@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-require 'administrate/field/markdown'
-
-RSpec.describe Administrate::Field::Markdown do
+RSpec.describe Administrate::Field::SimpleMDEMarkdown do
   let(:page) { :show }
   let(:data) do
     ''"

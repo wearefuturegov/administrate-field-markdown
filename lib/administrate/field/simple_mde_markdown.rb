@@ -7,13 +7,13 @@ require 'administrate/field/base'
 
 module Administrate
   module Field
-    class Markdown < Administrate::Field::Base
+    class SimpleMDEMarkdown < Administrate::Field::Base
       class Engine < ::Rails::Engine
         Administrate::Engine.add_javascript(
-          'administrate-field-markdown/application'
+          'administrate-field-simple_mde_markdown/application'
         )
         Administrate::Engine.add_stylesheet(
-          'administrate-field-markdown/application'
+          'administrate-field-simple_mde_markdown/application'
         )
 
         config.assets.paths << File.expand_path('../../node_modules', __dir__)

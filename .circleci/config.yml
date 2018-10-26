@@ -56,8 +56,8 @@ jobs:
         - run:
             name: Publish to Rubygems
             command: |
-              gem build administrate-field-markdown.gemspec
-              gem push "administrate-field-markdown-$(git describe --tags).gem"
+              gem build administrate-field-simple_mde_markdown.gemspec
+              gem push "administrate-field-simple_mde_markdown-$(git describe --tags).gem"
 
 workflows:
   version: 2

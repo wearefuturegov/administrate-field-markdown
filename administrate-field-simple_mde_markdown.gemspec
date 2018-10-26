@@ -4,14 +4,14 @@ lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'administrate-field-markdown'
+  spec.name          = 'administrate-field-simple_mde_markdown'
   spec.version       = '0.1.0'
   spec.authors       = ['Stuart Harrison']
   spec.email         = ['dev@wearefuturegov.com']
 
-  spec.summary       = 'A plugin for markdown fields in Administrate'
+  spec.summary       = 'A plugin for markdown fields in Administrate using SimpleMDE'
   spec.description   = spec.summary
-  spec.homepage      = 'https://github.com/wearefuturegov/administrate-field-markdown'
+  spec.homepage      = 'https://github.com/wearefuturegov/administrate-field-simple_mde_markdown'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.

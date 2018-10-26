@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'administrate/field/markdown'
+require 'administrate/field/simple_mde_markdown'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
